@@ -1,4 +1,5 @@
-var msg = 'First message';
+var n = 20;
+var msg = "Number is ".concat(n);
 // Creating an element
 var element = document.createElement('h1');
 element.textContent = msg;
